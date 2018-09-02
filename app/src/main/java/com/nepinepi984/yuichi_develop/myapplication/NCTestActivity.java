@@ -46,8 +46,6 @@ public class NCTestActivity extends AppCompatActivity {
         } else {
           //取得成功時の処理
           Log.d(TAG, "done: " + object.toString());
-          Log.d(CALL, String.valueOf(object.getJSONObject("mFields")));
-          LinkedHashMap<String, String> tempHashMap = new LinkedHashMap<>();
           Log.d(CALL, object.getString("name")); // "Yuichi" Output!
         }
       }
